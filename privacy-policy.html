@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade — Carlinhos Bot</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #0b0d12;
+    color: #d7dce4;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { color: #fff; font-size: 2rem; margin: 0 0 4px; }
+  .sub { color: #8b93a1; font-size: .9rem; margin: 0 0 40px; }
+  h2 { color: #fff; font-size: 1.25rem; margin: 40px 0 12px; padding-top: 12px; border-top: 1px solid #1b1f2a; }
+  a { color: #6ea8ff; }
+  code { background: #161a23; padding: 2px 6px; border-radius: 6px; font-size: .85em; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .note { background: #12151d; border: 1px solid #1f2430; border-radius: 12px; padding: 16px 18px; margin: 20px 0; font-size: .92rem; }
+  footer { margin-top: 56px; color: #6b7280; font-size: .82rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Política de Privacidade</h1>
+  <p class="sub">Carlinhos Bot &middot; Última atualização: [DATA]</p>
+
+  <p>Esta política descreve que dados o <strong>Carlinhos Bot</strong> ("o Bot") recolhe, porquê,
+  durante quanto tempo os guarda e como podes exercer os teus direitos. O Bot é operado por
+  <strong>[TEU_NOME_OU_PSEUDÓNIMO]</strong> e serve o servidor de Discord <strong>[NOME_DO_SERVIDOR]</strong>.
+  Ao adicionar, utilizar ou permanecer num servidor onde o Bot está ativo, aceitas esta política.</p>
+
+  <div class="note">
+    Este documento reflete o comportamento real do Bot à data acima. Não vendemos, alugamos nem
+    partilhamos os teus dados com terceiros para fins comerciais ou publicitários.
+  </div>
+
+  <h2>1. Que dados recolhemos</h2>
+  <p>O Bot recolhe apenas os dados necessários ao seu funcionamento e às funcionalidades de
+  moderação, registo e gestão do servidor:</p>
+  <ul>
+    <li><strong>Identificadores de Discord:</strong> ID de utilizador, ID de servidor, ID de canal,
+    ID de mensagem, nome de utilizador, tag e apelido.</li>
+    <li><strong>Conteúdo de mensagens:</strong> apenas quando relevante para funcionalidades de
+    registo (por exemplo, o conteúdo de mensagens editadas ou apagadas é guardado para o sistema de logs).</li>
+    <li><strong>Ficheiros e média:</strong> anexos de mensagens apagadas, e avatares/banners de
+    membros, podem ser guardados em disco para o histórico de membros e comparação de imagens.</li>
+    <li><strong>Registos de eventos (logs):</strong> entradas/saídas de membros, alterações de
+    cargos e canais, ações de voz, e ações de moderação (bans, kicks, timeouts, avisos).</li>
+    <li><strong>Ações de staff:</strong> registo das ações de moderação executadas pela equipa,
+    para deteção de abuso e auditoria.</li>
+    <li><strong>Dados de configuração:</strong> definições que os administradores configuram para
+    o servidor.</li>
+  </ul>
+  <p>O Bot <strong>não</strong> recolhe dados fora do Discord, não acede a mensagens privadas
+  (DMs) entre utilizadores, e não recolhe informação de pagamento.</p>
+
+  <h2>2. Porque recolhemos estes dados</h2>
+  <ul>
+    <li>Fornecer funcionalidades de moderação (bans, kicks, timeouts, avisos, anti-raid, anti-scam).</li>
+    <li>Manter registos (logs) de atividade do servidor para os administradores.</li>
+    <li>Operar sistemas de verificação, tickets e níveis/XP.</li>
+    <li>Detetar e prevenir abuso, incluindo abuso por parte da própria equipa de staff.</li>
+    <li>Guardar as preferências de configuração de cada servidor.</li>
+  </ul>
+
+  <h2>3. Base legal (RGPD)</h2>
+  <p>Para utilizadores no Espaço Económico Europeu, o tratamento assenta no <strong>interesse
+  legítimo</strong> em operar e moderar a comunidade, e no <strong>consentimento</strong> dado ao
+  permaneceres num servidor onde o Bot está ativo e cujas regras indicam a sua utilização.</p>
+
+  <h2>4. Durante quanto tempo guardamos os dados</h2>
+  <ul>
+    <li><strong>Dados de configuração:</strong> enquanto o Bot estiver no servidor.</li>
+    <li><strong>Logs de eventos e ações de staff:</strong> guardados em ficheiros locais. Alguns
+    registos são mantidos sem prazo de eliminação automática, para fins de auditoria e histórico.</li>
+    <li><strong>Média guardada (avatares, banners, anexos):</strong> mantida em disco até
+    eliminação manual pelo operador.</li>
+  </ul>
+  <p>Podes solicitar a eliminação dos teus dados a qualquer momento (ver secção 7).</p>
+
+  <h2>5. Onde os dados são guardados</h2>
+  <p>Os dados são guardados em: (a) uma base de dados <strong>MySQL alojada na Aiven</strong>
+  (fornecedor cloud), e (b) <strong>ficheiros locais</strong> no servidor onde o Bot é executado.
+  São aplicadas medidas técnicas razoáveis para proteger o acesso a estes dados.</p>
+
+  <h2>6. Partilha com terceiros</h2>
+  <p>Não vendemos nem partilhamos os teus dados para fins comerciais. Os dados são processados
+  apenas pela infraestrutura necessária ao funcionamento do Bot (Discord, e o fornecedor de base
+  de dados Aiven). Não existe partilha para publicidade.</p>
+
+  <h2>7. Os teus direitos</h2>
+  <p>Tens o direito de: aceder aos dados que temos sobre ti, corrigi-los, e solicitar a sua
+  eliminação ("direito ao esquecimento"). Para exercer qualquer destes direitos, contacta-nos
+  através dos meios na secção 9. Responderemos num prazo razoável.</p>
+
+  <h2>8. Dados de menores</h2>
+  <p>O Discord exige que os utilizadores tenham a idade mínima definida nos Termos de Serviço do
+  Discord. O Bot não se destina a menores de idade abaixo dessa idade mínima e não recolhe
+  intencionalmente os seus dados.</p>
+
+  <h2>9. Contacto</h2>
+  <p>Para questões sobre privacidade ou pedidos relativos aos teus dados:</p>
+  <ul>
+    <li>Email: <strong>[TEU_EMAIL_DE_CONTACTO]</strong></li>
+    <li>Discord de suporte: <strong>[DISCORD_DE_SUPORTE]</strong></li>
+  </ul>
+
+  <h2>10. Alterações a esta política</h2>
+  <p>Esta política pode ser atualizada. A data de "Última atualização" no topo reflete a versão em
+  vigor. Alterações materiais serão comunicadas através do servidor.</p>
+
+  <footer>
+    Carlinhos Bot &middot; Documento de privacidade &middot; [URL_DA_POLITICA]
+  </footer>
+</div>
+</body>
+</html>
